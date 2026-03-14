@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Work Hub</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+max-width:600px;
+opacity:0.8;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+padding:60px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">StudentWork</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Find Jobs</a>
+<a href="#">Businesses</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Connect Students With Businesses</h1>
+
+<p>
+Earn pocket money while helping local businesses grow.
+</p>
+
+<button class="btn">Get Started</button>
+
+</section>
+
+<section class="features">
+
+<div class="card">
+<h3>For Students</h3>
+<p>Find flexible part-time jobs near you.</p>
+</div>
+
+<div class="card">
+<h3>For Businesses</h3>
+<p>Hire reliable students quickly.</p>
+</div>
+
+<div class="card">
+<h3>Fast & Easy</h3>
+<p>Post tasks and get help instantly.</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 StudentWork Platform
+</footer>
+
+</body>
+</html>
